@@ -17,6 +17,45 @@ O **ToyShow Scraper** é uma aplicação desenvolvida em Laravel que realiza o s
   - `json`
 
 ---
+# Como Utilizar o ToyShow Scraper
+
+Este guia descreve como utilizar as principais funcionalidades do **ToyShow Scraper**.
+
+---
+
+## 1. Iniciar o Scraper
+- Acesse a página inicial do sistema.
+- Clique no botão **"Iniciar / Update"** para começar o scraping.
+- O status do progresso será exibido dinamicamente na tela.
+
+---
+
+## 2. Parar o Scraper
+- Durante o processo de scraping, clique no botão **"Parar"**.
+- O processo será interrompido e uma mensagem de confirmação será exibida.
+
+---
+
+## 3. Filtrar Produtos
+Utilize os filtros disponíveis para refinar a busca por produtos:
+- **Nome do Produto**: Digite o nome ou parte dele.
+- **Marca**: Selecione uma marca da lista.
+- **Faixa de Preço**:
+  - Até R$100
+  - Entre R$100 e R$200
+  - Acima de R$200
+
+Os resultados são exibidos em uma grade paginada para facilitar a navegação.
+
+---
+
+## 4. Visualizar Detalhes do Produto
+- Clique em qualquer card de produto para visualizar mais informações.
+- Um modal será aberto com:
+  - **Imagem do Produto**
+  - **Descrição Completa**
+  - **Outros Detalhes Relevantes**
+
 
 ## **Instalação**
 
@@ -100,3 +139,8 @@ Depois disso, execute:
 ```bash
 php artisan migrate
 ```
+### 6. ** Rodar as filas para scraping **
+```bash
+php artisan queue:work
+```
+Abra no navegador: http://localhost:8000
