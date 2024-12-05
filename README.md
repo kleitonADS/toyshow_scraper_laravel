@@ -26,3 +26,7 @@ git clone https://github.com/kleitonADS/toyshow_scraper_laravel.git
 cd toyshow-scraper
 ```
 ### 2. **Instale as dependências**
+Back-end (Laravel):
+```bash
+composer install
+```
