@@ -24,3 +24,5 @@ O **ToyShow Scraper** é uma aplicação desenvolvida em Laravel que realiza o s
 ```bash
 git clone https://github.com/kleitonADS/toyshow_scraper_laravel.git
 cd toyshow-scraper
+
+### 2. **Instale as dependências**
